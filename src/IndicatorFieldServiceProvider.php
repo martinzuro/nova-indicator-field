@@ -1,6 +1,6 @@
 <?php
 
-namespace Inspheric\Fields;
+namespace Martinzuro\Fields;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

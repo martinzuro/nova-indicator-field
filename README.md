@@ -1,22 +1,20 @@
 # Laravel Nova Indicator Field
 A colour-coded indicator field for Laravel Nova
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/inspheric/nova-indicator-field.svg?style=flat-square)](https://packagist.org/packages/inspheric/nova-indicator-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/inspheric/nova-indicator-field.svg?style=flat-square)](https://packagist.org/packages/inspheric/nova-indicator-field)
 
 ## Installation
 
 Install the package into a Laravel app that uses [Nova](https://nova.laravel.com) with Composer:
 
 ```bash
-composer require inspheric/nova-indicator-field
+composer require martinzuro/nova-indicator-field
 ```
 
 ## Usage
 
 Add the field to your resource in the ```fields``` method:
 ```php
-use Inspheric\Fields\Indicator;
+use Martinzuro\Fields\Indicator;
 
 Indicator::make('Status'),
 ```
@@ -184,10 +182,10 @@ Indicator::make('Status')
 The field is displayed similarly to the built-in `Laravel\Nova\Fields\Boolean` field, with the ability to have more than a true/false value, and different labels and colours defined.
 
 ### Index
-![index-field](https://raw.githubusercontent.com/inspheric/nova-indicator-field/master/docs/index-field.png)
+![index-field](https://raw.githubusercontent.com/martinzuro/nova-indicator-field/master/docs/index-field.png)
 
 ### Detail
-![detail-field](https://raw.githubusercontent.com/inspheric/nova-indicator-field/master/docs/detail-field.png)
+![detail-field](https://raw.githubusercontent.com/martinzuro/nova-indicator-field/master/docs/detail-field.png)
 
 ### Form
 (Same as detail.)

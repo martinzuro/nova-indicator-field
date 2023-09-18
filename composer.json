@@ -1,5 +1,5 @@
 {
-    "name": "inspheric/nova-indicator-field",
+    "name": "martinzuro/nova-indicator-field",
     "description": "A Laravel Nova indicator field.",
     "keywords": [
         "laravel",
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Inspheric\\Fields\\": "src/"
+            "Martinzuro\\Fields\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Inspheric\\Fields\\IndicatorFieldServiceProvider"
+                "Martinzuro\\Fields\\IndicatorFieldServiceProvider"
             ]
         }
     },
