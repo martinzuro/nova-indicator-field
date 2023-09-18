@@ -1,7 +1,7 @@
 <template>
     <span class="whitespace-no-wrap" v-if="!field.shouldHide">
         <span
-            class="inline-block indicator-grey rounded-full w-2 h-2 mr-1"
+            class="inline-block indicator-grey rounded-full w-3 h-3 mr-1"
             v-bind="colorClassStyle"
         />
         <span v-if="labelText">
